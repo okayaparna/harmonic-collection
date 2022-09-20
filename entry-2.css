@@ -42,20 +42,18 @@ text-align: right;
 font-size: x-small;
 }
 
-#gallery {
-    line-height:0;
-    -webkit-column-count:5; /* split it into 5 columns */
-    -webkit-column-gap:5px; /* give it a 5px gap between columns */
-    -moz-column-count:5;
-    -moz-column-gap:5px;
-    column-count:5;
-    column-gap:5px;
- }
+.notefromlesterpicture {
+align-items: center;
+}
 
- #gallery img {
-    width: 50%;
-    height: 50%;
-    margin-bottom:5px;
- }
+
+
+.endingnote {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: small; 
+    
+}
 
 
