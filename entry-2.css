@@ -1,0 +1,61 @@
+.faded {
+    color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+
+.XRAY{
+color: limegreen;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+}
+
+.statusofXRAY {
+color: limegreen;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+
+}
+
+
+.fail {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+
+ animation:blinking 1.5s infinite;
+font-size: 40px;
+}
+@keyframes blinking{
+0%{   color: red;   }
+47%{   color: #000; }
+62%{   color: transparent; }
+97%{   color:transparent; }
+100%{  color: #000;   }
+}
+
+.notefromlester {
+color: whitesmoke;
+font-family: 'Courier New', Courier, monospace;
+text-align: right;
+font-size: x-small;
+}
+
+#gallery {
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+ }
+
+ #gallery img {
+    width: 50%;
+    height: 50%;
+    margin-bottom:5px;
+ }
+
+
