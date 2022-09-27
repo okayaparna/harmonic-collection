@@ -4,7 +4,9 @@ color: whitesmoke;
 font-family: 'Courier New', Courier, monospace;
 text-align: right;
 }
-
+.note2{
+    margin-left: 50%;
+}
 .status {
     color: limegreen;
     font-family: 'Courier New', Courier, monospace;
@@ -85,7 +87,7 @@ text-align: right;
 
 
 .knee{
-    height: 500px;
-    width: 500px;
-    margin: 50%;
+    height: 200px;
+    width: 200px;
+  margin-left: 50%; 
 }
