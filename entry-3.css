@@ -92,6 +92,25 @@ text-align: right;
     font-size:larger
 }
 
+aside {
+	background-color: transparent;
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	width: 500px;
+}
+.corr1{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.corr2{
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
 .knee{
     height: 500px;
     width: 500px;
