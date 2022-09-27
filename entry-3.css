@@ -27,7 +27,7 @@ text-align: right;
         font-weight: 600;
         width: 250px;
         position:sticky;
-        margin-left: 50%;
+        margin-left: 40%;
         
     }
 
@@ -89,7 +89,7 @@ text-align: right;
 .interruption{
     color: limegreen;
     font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+    font-size:larger
 }
 
 .knee{
