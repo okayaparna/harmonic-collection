@@ -1,0 +1,92 @@
+.notefromlester {
+font-size: x-small;
+color: whitesmoke;
+font-family: 'Courier New', Courier, monospace;
+text-align: right;
+}
+
+.status {
+    color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+    div {
+        border-radius: 70%; 
+        border-style: solid;
+        border-color: white;
+        color: white;
+        background-color: transparent;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        width: 250px;
+        position:sticky;
+        margin-left: 50%;
+        
+    }
+
+    .analysis{
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: smaller;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 25%;
+        background-color: whitesmoke;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        
+    }
+
+    .transformbutton {
+        color: white; 
+        background-color: red;
+            padding: 16px 32px;
+            text-align: center;
+           font-family: 'Courier New', Courier, monospace;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            align-items: center;
+            margin: 50%;
+    }
+
+.statusofXRAY {
+    color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+    }
+    
+    
+    .fail {
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+    
+     animation:blinking 1.5s infinite;
+    font-size: 90px;
+    }
+    @keyframes blinking{
+    0%{   color: red;   }
+    47%{   color: #000; }
+    62%{   color: transparent; }
+    97%{   color:transparent; }
+    100%{  color: #000;   }
+    }
+
+
+.knee{
+    height: 500px;
+    width: 500px;
+    margin: 50%;
+}
