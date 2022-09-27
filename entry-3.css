@@ -78,7 +78,7 @@ text-align: right;
     font-size: 90px;
     }
     @keyframes blinking{
-    0%{   color: red;   }
+    0%{   color: yellow;   }
     47%{   color: #000; }
     62%{   color: transparent; }
     97%{   color:transparent; }
