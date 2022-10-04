@@ -82,12 +82,11 @@ div
     grid-column: 2 / 2;
     grid-row: 3;
 }
-}
+
 
 .notefromlester {
     font-size: x-small;
     color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    animation: ;
     }
