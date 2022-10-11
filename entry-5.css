@@ -26,7 +26,6 @@ body{
 aside {
 	background-color: transparent;
 	float: right;
-	
 	padding: 10%;
 	width: 500px;
 }
@@ -98,8 +97,30 @@ section :nth-child(4){
 .hide{
     display: none;
 
+
 }
 
 .eyes:hover + .hide {
     display:inline;
   }
+
+ img{
+    min-width: 200px;
+    max-height: 200px;
+ }
+
+ .endingnote {
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: x-small; 
+    
+}
+
+ .backtoindex {
+    color: grey;
+    font-size:small;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+  
