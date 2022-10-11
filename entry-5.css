@@ -1,0 +1,105 @@
+.title{
+    color: #1b444a;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1em;
+}
+
+.text{
+    color: black;
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+
+}
+
+@media { min-width: 300px;
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+}
+
+aside {
+	background-color: transparent;
+	float: right;
+	
+	padding: 10%;
+	width: 500px;
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 200px;
+    max-height: 300px;
+flex-direction: row;
+justify-content:space-between;
+padding-top: 0.2cm;
+padding-right: 0.2cm;
+padding-left: 0.2cm;
+padding-bottom: 00.2cm;
+}
+
+div {
+	background-color: black;
+    padding: 1em;
+    justify-content: center;
+  
+    
+}
+
+section :nth-child(1){
+width: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    row-gap: 50px;
+    column-gap: 50px;
+    justify-items: center;
+
+}
+section :nth-child(2){
+    width: 100px;
+    justify-items: center;
+}
+
+section :nth-child(3){
+    width: 100px;
+    justify-items: center;
+}
+section :nth-child(4){
+    width: 100px;
+    justify-items: center;
+}
+
+}
+
+.notefromlester{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10%;
+    text-align: right;
+}
+
+.note{
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.258);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.hide{
+    display: none;
+
+}
+
+.eyes:hover + .hide {
+    display:inline;
+  }
