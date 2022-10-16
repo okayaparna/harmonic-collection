@@ -138,13 +138,22 @@ padding-left: 10%;
   
 }
 
+.gif{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+}
+
 .backtoindex {
-    color: rgb(255, 255, 255);
+    color: rgb(141, 139, 139);
     font-size:small;
     font-family: 'Silkscreen', cursive;
-    text-align: right;
+    display:inline-block;
+    text-align: center;
     margin-left: 50%;
-    background-color: rgb(77, 64, 55);
+    background-color: rgb(229, 227, 225);
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
