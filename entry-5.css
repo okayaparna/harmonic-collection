@@ -130,3 +130,24 @@
     font-family: 'Raleway', sans-serif;
     font-size: small;
 }
+
+.help{
+    font-family: 'VT323', monospace;
+    font-size: x-large;
+padding-left: 10%;
+  
+}
+
+.backtoindex {
+    color: rgb(255, 255, 255);
+    font-size:small;
+    font-family: 'Silkscreen', cursive;
+    text-align: right;
+    margin-left: 50%;
+    background-color: rgb(77, 64, 55);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 70%;
+}
