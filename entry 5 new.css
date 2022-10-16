@@ -1,0 +1,120 @@
+.heading{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1 fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    
+    ". one one ."
+    ". two three ."
+    ". two three ."
+    ". four three ."
+    ". four six ."
+    ". five six ." 
+    ". five six .";
+
+}
+
+
+
+.one{
+   grid-area: one;
+text-align: center;
+padding: 10%;
+}
+
+.two{
+    grid-area: two;
+    text-align: center;
+    padding: 10%;
+ }
+
+ .three{
+    grid-area: three;
+    text-align: center;
+    padding: 10%;
+ }
+ .four{
+    grid-area: four;
+    text-align: center;
+    padding: 10%;
+ }
+
+ .five{
+    grid-area: five;
+    text-align: center;
+    padding: 10%;
+ }
+ .six{
+    grid-area: six;
+    text-align: center;
+    padding: 10%;
+ 
+ }
+ 
+/* .two{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.three{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.four{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.five{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+*/
+
+.grid div:nth-child(1){
+    background-color: rgb(162, 153, 153);
+    gap: 10%;
+    box-shadow: 2.5rem;
+}
+.grid div:nth-child(2){
+    background-color: rgb(95, 95, 95);
+}
+.grid div:nth-child(3){
+    background-color: rgb(161, 91, 91);
+}
+.grid div:nth-child(4){
+    background-color: gray;
+}
+.grid div:nth-child(5){
+    background-color: rgb(101, 50, 50);
+}
+.grid div:nth-child(6){
+    background-color: rgb(62, 23, 23);
+}
+
+
+@media screen {
+    min-width: 768px;
+    .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    
+    ". one one ."
+    ". two three ."
+    ". two three ."
+    ". four three ."
+    ". four six ."
+    ". five six ." 
+    ". five six .";
+} 
+}  
