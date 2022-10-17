@@ -1,3 +1,71 @@
+.body{
+    background-color: black;
+}
+
+.heading{
+    color: lime;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.case-1{
+    color: lime;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    border-style: dotted;
+    padding: 5%;
+}
+
+.analysis{
+    color: white;
+    font-family: ocr-a-std, monospace;
+    text-align: center;
+    font-size: 30px;
+    padding: 5%;
+
+}
+
+.analysis-grid{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+   grid-template-columns: 1fr 1fr 1fr;
+   font-family: ocr-a-std, monospace;
+   text-align: center;
+   column-gap: 1cm;
+   row-gap: 0.5cm;
+   padding: 5%;
+   border-style:outset;
+   border-color: gray;
+   border-width: 0.1cm;
+
+}
+
+
+
+
+
+
+
+
+
+.bonenames{
+    color: blue;
+}
+
+.status-okay{
+    color: orangered;
+}
+.status-good{
+    color: rgb(185, 182, 19);
+}
+.status-well{
+    color: rgb(101, 155, 22);
+}
+.readyforlab{
+    color: darkcyan;
+}
+
 .faded {
     color: limegreen;
     font-family: 'Courier New', Courier, monospace;
