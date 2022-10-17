@@ -1,13 +1,147 @@
-.backtoindex {
-color: red;
-font-size: small;
-font-family: 'Courier New', Courier, monospace;
+
+.heading{
+    color: rgb(255, 255, 255);
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: 115px;
+    position: absolute;
+    top: 50px;
+   /* left: 20%; */
+}
+
+@media (max-width: 320px){
+    .heading{
+color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+
+    }
 
 }
 
-.heading{
+
+
+@media (min-width: 1024px){
+    .heading{
+
+        font-size: 150px;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+
+    }
+
+}
+
+
+.squeamish{
+border: 5px;
+border-style: solid;
+border-color: white;
+justify-content: center;
+}
+
+.veindude{
+    max-width: 1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media (max-width: 440px){
+    .Lester-img{
+        max-width: 200px;
+        max-height: 200px;
+        }
+}
+
+@media (min-width: 440px){
+    .Lester-img{
+        max-width: 400px;
+        max-height: 400px;
+        }
+}
+
+body{
+    background-color: black;
+}
+
+.grid{
+ display: grid;
+ font-family: ocr-a-std, monospace;
+ color: white;
+ background-color: rgb(102, 24, 63);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+}
+
+@media(min-width: 585px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        font-family: ocr-a-std, monospace;
+        font-weight: 400; 
+        font-style: normal;
+        color: white;
+        text-align: left;
+
+    }
+
+.grid div:nth-child(2){
+    font-family: ocr-a-std, monospace;
+    font-weight: 400; 
+    font-style: normal;
     color: white;
+    min-height: 100px;
+    text-align: left;
+    /* padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px; */
+    padding: 10%
+}
+
+.test-results{
+    display: grid;
+    background-color: rgb(102, 24, 63);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   }
+
+.text{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+  text-align: center;
+  justify-content: center;
+    
+}
+
+/*
+why does text disappear when you try mobile mode?
+*/
+
+.backtoindex {
+    color: rgb(178, 161, 172);
+    font-size:small;
     font-family: 'Silkscreen', cursive;
+    display:inline-block;
     text-align: center;
-    font-size: xxx-large;
+
+/*
+how to bring the back to index button to the center?
+why does it disappear when you try mobile mode
+*/
+
+
+    background-color: rgb(98, 30, 85);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 70%;
 }
