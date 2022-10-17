@@ -22,7 +22,6 @@ color: white;
 }
 
 
-
 @media (min-width: 1024px){
     .heading{
 
@@ -67,6 +66,10 @@ justify-content: center;
 
 body{
     background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-align: center;
 }
 
 .grid{
@@ -89,6 +92,7 @@ body{
         text-align: left;
 
     }
+}
 
 .grid div:nth-child(2){
     font-family: ocr-a-std, monospace;
@@ -121,9 +125,6 @@ body{
     
 }
 
-/*
-why does text disappear when you try mobile mode?
-*/
 
 .backtoindex {
     color: rgb(178, 161, 172);
@@ -131,13 +132,6 @@ why does text disappear when you try mobile mode?
     font-family: 'Silkscreen', cursive;
     display:inline-block;
     text-align: center;
-
-/*
-how to bring the back to index button to the center?
-why does it disappear when you try mobile mode
-*/
-
-
     background-color: rgb(98, 30, 85);
     padding-top: 20px;
     padding-bottom: 20px;
