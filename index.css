@@ -67,13 +67,15 @@ a {
 
 } 
 
-@media{
-    .buttons{ min-width: 400px ;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-    }
+@media(min-width: 400px){  .buttons{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
 }
+
+}
+
+
 
 .entry-1{
     background-color: black;
