@@ -67,7 +67,7 @@ a {
 
 } 
 
-@media(min-width: 400px){  .buttons{ 
+@media(min-width: 425px){  .buttons{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
