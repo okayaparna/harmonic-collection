@@ -56,3 +56,43 @@ a {
     font-family: 'Silkscreen', cursive;
     font-size: x-large;
 }
+
+.body{
+    background-color: black;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr;
+
+} 
+
+@media{
+    .buttons{ min-width: 400px ;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    }
+}
+
+.entry-1{
+    background-color: black;
+    color: lime;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: lime;
+    padding: 10%;
+    font-family: 'Silkscreen', cursive;
+    font-size: x-large;
+    transition-duration: 0.4s;
+}
+.entry-1:hover{
+    background-color: lime;
+    color: black;
+    border-color: white;
+}
+
+a:hover{
+    color: white;
+}
+
