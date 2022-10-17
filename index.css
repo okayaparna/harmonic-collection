@@ -1,4 +1,4 @@
-.SQUEAMISH {
+/* .SQUEAMISH {
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: limegreen;
@@ -25,4 +25,30 @@ font-style: oblique;
     color: limegreen;
     font-family: 'Courier New', Courier, monospace;
 
+} */
+
+.heading{
+    color: lime;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+
+.entry-1{
+    background-color: black;
+    color: lime;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: lime;
+    padding: 10%;
+    font-family: 'Silkscreen', cursive;
+    font-size: x-large;
 }
