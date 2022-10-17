@@ -34,10 +34,14 @@ font-style: oblique;
     font-size: xxx-large;
 }
 
+a {
+    color: lime;
+  }
 
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
 
 }
 
@@ -48,7 +52,7 @@ font-style: oblique;
     border-style: solid;
     border-radius: 15px;
     border-color: lime;
-    padding: 10%;
+    padding: 20%;
     font-family: 'Silkscreen', cursive;
     font-size: x-large;
 }
