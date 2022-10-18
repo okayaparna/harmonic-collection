@@ -6,16 +6,17 @@
     font-size: 117px;
     position: absolute;
     top: 50px;
+    left: 65px;
   /* left: 10%; */
 }
 
-@media (max-width: 320px){
+@media (max-width: 425px){
     .heading{
 color: white;
         font-size: 30px;
         position: absolute; 
         top: 50px;
-        left: 50px;
+        left: 64.3px;
 
     }
 
