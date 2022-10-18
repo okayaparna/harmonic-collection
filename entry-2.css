@@ -18,7 +18,7 @@
 }
 
 .analysis{
-    color: white;
+color: white;
     font-family: ocr-a-std, monospace;
     text-align: center;
     font-size: 30px;
@@ -26,9 +26,11 @@
 
 }
 
+
 .analysis-grid{
     display: grid;
-    background-color: rgb(202, 202, 202);
+    color:whitesmoke;
+    /* background-color: rgb(202, 202, 202); */
    grid-template-columns: 1fr 1fr 1fr;
  font-family: ocr-a-std, monospace; 
    text-align: center;
@@ -41,21 +43,42 @@
 
 }
 
+@media(max-width:425px){
+.analysis-grid{
+    font-size: x-small;
+}
+
+}
+
+
+@media(min-width:425px){
+    .analysis-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+.bodyparts{
+    color:whitesmoke;
+}
 .bonenames{
     color: blue;
 }
-
 .status-okay{
-    color: orangered;
+    color: rgb(255, 0, 0);
 }
 .status-good{
-    color: rgb(185, 182, 19);
+    color: rgb(204, 255, 0);
 }
 .status-well{
-    color: rgb(101, 155, 22);
+    color: rgb(153, 255, 0);
 }
 .readyforlab{
-    color: darkcyan;
+    color: rgb(0, 255, 255);
 }
 
 .faded {
@@ -64,18 +87,20 @@
     font-size: smaller;
 }
 
-.XRAY{
-color: limegreen;
-font-family: 'Courier New', Courier, monospace;
-text-align: center;
+.picture{
+width: 200px;
+height: 200px;
+margin:10%;
 }
 
-.statusofXRAY {
-color: limegreen;
-font-family: 'Courier New', Courier, monospace;
-text-align: center;
-
-}
+@media(min-width:768px){
+    .picture{
+ width: 600px;
+            height: 600px;
+            padding-left: 10px;
+            padding-top: 0%;
+            }
+    }
 
 
 .fail {
@@ -83,10 +108,26 @@ text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: bolder;
-
  animation:blinking 1.5s infinite;
 font-size: 90px;
 }
+
+@media(min-width:425px){
+    .fail {
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+        border-style: dotted;
+        border-color: red;
+        border-radius: 70%;
+        padding: 5%;
+    
+     animation:blinking 1.5s infinite;
+    font-size: 90px;
+    }  
+}
+
 @keyframes blinking{
 0%{   color: red;   }
 47%{   color: #000; }
@@ -116,4 +157,16 @@ font-size: x-small;
     font-size:small;
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
+}
+
+.notefromlesterpicture{
+    width: 500px;
+    height: auto;
+}
+
+@media(max-width:425px){
+    .notefromlesterpicture{
+        width: 300px;
+        height: auto;
+    }
 }
