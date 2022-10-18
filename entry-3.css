@@ -5,6 +5,22 @@
     font-size: xxx-large;
 }
 
+.body{
+    background-color: black;
+}
+
+.case-1{
+    color: lime;
+    font-family: 'Silkscreen', cursive;
+    text-align: center; 
+    padding: 5%;
+}
+
+.note2{
+    width: 600px;
+    height: 600px;
+    margin-left: 10%;
+}
 
 .notefromlester {
 font-size: x-small;
@@ -12,9 +28,18 @@ color: whitesmoke;
 font-family: 'Courier New', Courier, monospace;
 text-align: right;
 }
-.note2{
-    margin-left: 10%;
+
+.analysisheading{
+    color: white;
+    font-family: ocr-a-std, monospace;
+    text-align: center;
+    font-size: 30px;
+    padding: 5%;
+    border-style: double;
+    border-color: white;
+
 }
+
 .status {
     color: limegreen;
     font-family: 'Courier New', Courier, monospace;
@@ -22,25 +47,18 @@ text-align: right;
     text-align: center;
 }
 
+  .analysis{
+    display:grid;
+    grid-template-columns: 1fr;
+padding: 10px;
+gap: 0.1cm;
 
+    color: blueviolet;
+    background-color: rgb(245, 245, 245);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
 
-    div {
-        border-radius: 70%; 
-        border-style: solid;
-        border-color: white;
-        color: white;
-        background-color: transparent;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 600;
-        width: 250px;
-        position:sticky;
-        margin-left: 40%;
-        
-    }
-
-    .analysis{
-        color: red;
+        /* color: red;
         font-family: 'Courier New', Courier, monospace;
         font-size: smaller;
         text-align: left;
@@ -50,9 +68,11 @@ text-align: right;
         padding-left: 20px;
         padding-right: 10px;
         padding-bottom: 20px;
-    
+     */
         
     }
+
+
 
     .transformbutton {
         color: white; 
