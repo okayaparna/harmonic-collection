@@ -153,17 +153,23 @@ color: indigo;
 
 .how{
 
-    display:grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* display:grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+
+display: flex;
+flex-direction: column;
+
+row-gap: 20px;
 font-family:Helvetica, sans-serif;
 font-weight: 800;
-grid-column-gap: 40px;
+/* grid-column-gap: 40px; */
 color: rgb(150, 4, 255);
 text-align: center;
 justify-content: center;
+
 }
 
-.how div:nth-child(1){
+.eyes{
     background-color: rgba(255, 255, 255, 0.064);
     /* min-height: 20px; */
     text-align: center;
@@ -174,11 +180,11 @@ justify-content: center;
     border-style: solid;
     border-radius: 5px;
 
-display:block;
+
 
 }
 
-.how div:nth-child(2){
+.nose{
     background-color:rgba(255, 255, 255, 0.064);
     min-height: 20px;
     text-align: center;
@@ -191,7 +197,7 @@ display:block;
 
 }
 
-.how div:nth-child(3){
+.teeth{
     background-color: rgba(255, 255, 255, 0.064);
     min-height: 20px;
     text-align: center;
@@ -203,7 +209,7 @@ display:block;
     border-radius: 5px;
 
 }
-.how div:nth-child(4){
+.knees{
     background-color: rgba(255, 255, 255, 0.064);
     min-height: 20px;
     text-align: center;
@@ -215,7 +221,7 @@ display:block;
     border-radius: 5px;
 
 }
-.how div:nth-child(5){
+.feet{
     background-color: rgba(255, 255, 255, 0.064);
     min-height: 20px;
     text-align: center;
@@ -228,29 +234,29 @@ display:block;
 
 }
 
-.how div:nth-child(1):hover{
+.eyes:hover{
     background-color: rgb(255, 255, 255);
     color: indigo;
     border-color: indigo;
     cursor: url('eye.png'), auto;   
 }
 
-.how div:nth-child(2):hover{
+.nose:hover{
     background-color: rgb(255, 255, 255);
     color: indigo;
     border-color: indigo;
 }
-.how div:nth-child(3):hover{
+.teeth:hover{
     background-color: rgb(255, 255, 255);
     color: indigo;
     border-color: indigo;
 }
-.how div:nth-child(4):hover{
+.knees:hover{
     background-color: rgb(255, 255, 255);
     color: indigo;
     border-color: indigo;
 }
-.how div:nth-child(5):hover{
+.feet:hover{
     background-color: rgb(255, 255, 255);
     color: indigo;
     border-color: indigo;
@@ -261,14 +267,23 @@ a:hover{
 }
 
 .eye-info{
-    display:none;
-    color: white;
+ 
+    color: rgb(0, 0, 0);
+    font-weight: 100;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.how div:nth-child(1):hover.eye-info{
-    display: block;
+.join-today{
+    color: white;
+    font-family: "pragmatica", sans-serif;
+    background-color: rgba(0, 0, 0, 0.372);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
 }
