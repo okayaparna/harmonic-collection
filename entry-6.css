@@ -1,0 +1,266 @@
+.heading{
+    color: rgb(252, 252, 252);
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: 72px;
+}
+
+@media(max-width:320px){
+    .heading{
+        font-size: 55px;
+    }
+}
+
+.case-1{
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 5%;
+
+    /* border-style:dotted ;
+    border-radius: 50%; */
+}
+
+@media(max-width:425px){
+    .case-1{
+        padding-left: 20%;
+    }
+}
+
+
+.body{
+    background: linear-gradient(white,indigo, black) no-repeat;
+    background-attachment: fixed;
+
+}
+
+.evolution-text{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.defhead{
+    font-size: 22px;
+    text-align: center;
+}
+
+.def{
+    background-color: rgba(64, 17, 114, 0.108);
+    color: white;
+    font-family: "pragmatica", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    font-style: normal;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 10px;
+    margin-left: 50px;
+    
+}
+
+@media(min-width:430px){
+    .def{
+        margin-right: 50px;
+    }
+}
+
+.evolution{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width:768px){
+    .evolution{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+.manlaying{
+    width: 220px;
+    height: auto;
+    margin-left: 35%;
+    padding-top: 50px;
+}
+@media(min-width:768px){
+  
+    .manlaying{
+        width: 220px;
+        height: auto;
+     padding-top: 180px;
+     margin-left: 0%;
+    }
+}
+
+
+.mankneeling{
+    height: 150px;
+    width: auto;
+    padding-top: 15px;
+    margin-left: 45%;
+}
+
+/* @media(max-width:320px){
+    .mankneeling{
+        height: 150px;
+        width: auto;
+        padding-top: 15px;
+        margin-left: 50%;
+    }
+} */
+
+
+@media(min-width:768px){
+    .mankneeling{
+    padding-top: 155px;
+    margin-left: 30%;
+    }
+}
+
+
+.manstanding{
+    height: 300px;
+    padding-top: 10px ;
+    margin-left: 35%;
+  
+}
+
+@media(min-width:768px){
+    .manstanding{
+        padding: 0%;
+    }
+}
+
+
+/* .how{
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    font-family:Helvetica, sans-serif;
+font-weight: 800;
+background-color: white;
+border-style: solid;
+border-radius: 5px;
+grid-column-gap: 40px;
+color: indigo;
+} */
+
+.how{
+    /* display: flex; */
+    /* flex-direction: row; */
+    display:grid;
+   /* row-gap: 40px; */
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+font-family:Helvetica, sans-serif;
+font-weight: 800;
+/* background-color: white; */
+/* margin-left:120px; */
+grid-column-gap: 40px;
+color: rgb(150, 4, 255);
+text-align: center;
+justify-content: center;
+}
+
+.how div:nth-child(1){
+    background-color: rgba(255, 255, 255, 0.064);
+    /* min-height: 20px; */
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+.how div:nth-child(2){
+    background-color:rgba(255, 255, 255, 0.064);
+    min-height: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+.how div:nth-child(3){
+    background-color: rgba(255, 255, 255, 0.064);
+    min-height: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+.how div:nth-child(4){
+    background-color: rgba(255, 255, 255, 0.064);
+    min-height: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+.how div:nth-child(5){
+    background-color: rgba(255, 255, 255, 0.064);
+    min-height: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+.how div:nth-child(1):hover{
+    background-color: rgb(255, 255, 255);
+    color: indigo;
+    border-color: indigo;
+}
+
+.how div:nth-child(2):hover{
+    background-color: rgb(255, 255, 255);
+    color: indigo;
+    border-color: indigo;
+}
+.how div:nth-child(3):hover{
+    background-color: rgb(255, 255, 255);
+    color: indigo;
+    border-color: indigo;
+}
+.how div:nth-child(4):hover{
+    background-color: rgb(255, 255, 255);
+    color: indigo;
+    border-color: indigo;
+}
+.how div:nth-child(5):hover{
+    background-color: rgb(255, 255, 255);
+    color: indigo;
+    border-color: indigo;
+}
+
+a:hover{
+    color: white;
+}
+
+.how div:nth-child(5) {
+    cursor: url("eye.png"), auto;
+  }
