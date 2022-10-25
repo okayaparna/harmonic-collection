@@ -285,5 +285,12 @@ a:hover{
     padding-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 30px;
   
+}
+
+@media(min-width:600px){
+    .join-today{
+        margin-left: 40%;
+    }
 }
