@@ -46,7 +46,8 @@
     }
 }
 .body{
-    background: black;
+    /* background: black; */
+    background: linear-gradient(white,indigo, black) no-repeat;
     background-attachment: fixed;
 
 }
@@ -97,7 +98,7 @@
 
 .body-text{
     width: 514px;
-    background-color: rgba(197, 189, 205, 0.068);
+    /* background-color: rgba(197, 189, 205, 0.068); */
     color: white;
     font-family: "pragmatica", sans-serif;
     font-weight: 200;
