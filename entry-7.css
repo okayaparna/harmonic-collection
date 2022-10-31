@@ -28,6 +28,11 @@
     font-size: 60px;
 }
 }
+@media(max-width:320px){
+    .title{
+        font-size: 55px;
+    }
+}
 
 .case-1{
     font-family: 'Silkscreen', cursive;
@@ -83,18 +88,14 @@
 
 @media(min-width:774px){
     .main{
-        height: 1024px;
-        width: 1010px;
+        height: 1117px;
+        width: 1423px;
       
     }
 }
 
 
-@media(max-width:320px){
-    .title{
-        font-size: 55px;
-    }
-}
+
 
 .body-text{
     width: 514px;
