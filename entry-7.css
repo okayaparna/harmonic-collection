@@ -70,24 +70,57 @@
     background-size: cover;
     background-image: url(header-1.png);
     padding-bottom: 5%;
-
+margin-left:-10%;
+margin-top:-10%;
 }
 
 @media(max-width:320px){
     .main{
         height: 300px;
-        width: 342px;
+        width: 356px;
         padding-bottom: 10%;
 
+        margin-left: -4%;
+        margin-top:-10%;
+    }
+}
+@media(min-width:375px){
+    .main{
+        height: 625px;
+        width: 753px;
+        padding-bottom: 10%;
+        margin-left: -6%;
+        margin-top:-10%;
       
     }
 }
 @media(min-width:400px){
     .main{
         height: 625px;
-        width: 753px;
+        width: 764px;
         padding-bottom: 10%;
-
+        margin-left: -3%;
+        margin-top:-10%;
+      
+    }
+}
+@media(min-width:641px){
+    .main{
+        height: 625px;
+        width: 784px;
+        padding-bottom: 10%;
+        margin-left: -3%;
+        margin-top:-10%;
+      
+    }
+}
+@media(min-width:768px){
+    .main{
+        height: 625px;
+        width: 784px;
+        padding-bottom: 10%;
+        margin-left: -3%;
+        margin-top:-10%;
       
     }
 }
