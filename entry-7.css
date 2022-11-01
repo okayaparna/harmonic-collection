@@ -321,3 +321,18 @@
         width: 1440px
     }
 }
+
+.backtoindex {
+    color:rgb(150, 4, 255);
+    font-size:small;
+    font-family: 'Silkscreen', cursive;
+    display:inline-block;
+    text-align: center;
+    margin-left: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-radius: 7px;
+}
