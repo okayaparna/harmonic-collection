@@ -13,10 +13,87 @@
     font-size: 80px;
 }
 }
+@media(min-width:1024px){
+    .title{
+        font-size: 139px;
+    }
+    }
+
+.main{
+    width: 630px;
+    height: 540px;
+
+    background-size: cover;
+    background-image: url(creation-of-man.png);
+    padding-bottom: 5%;
+margin-left:-10%;
+margin-top:-10%;
+}
+
+@media(max-width:320px){
+    .main{
+        height: 443px;
+        width: 533px;
+        padding-bottom: 10%;
+
+        margin-left: -4%;
+        margin-top:-10%;
+
+     
+    }
+}
+@media(min-width:375px){
+    .main{
+        height: 625px;
+        width: 668px;
+        padding-bottom: 10%;
+        margin-left: -6%;
+        margin-top:-10%;
+      
+    }
+}
+@media(min-width:400px){
+    .main{
+        height: 632px;
+        width: 707px;
+        padding-bottom: 10%;
+        margin-left: -3%;
+        margin-top:-10%;
+      
+    }
+}
+@media(min-width:641px){
+    .main{
+        height: 625px;
+        width: 784px;
+        padding-bottom: 10%;
+        margin-left: -3%;
+        margin-top:-10%;
+      
+    }
+}
+@media(min-width:768px){
+    .main{
+        height: 625px;
+        width: 784px;
+        padding-bottom: 10%;
+        margin-left: -3%;
+        margin-top:-10%;
+      
+    }
+}
+
+@media(min-width:774px){
+    .main{
+        height: 840px;
+        width: 1045px;
+      
+    }
+}
 
 .case-1{
     font-family: 'Silkscreen', cursive;
-    color: rgb(153, 102, 189);
+    color: rgb(80, 179, 98);
     font-size: x-large;
     text-align: center;
     padding: 5%;
@@ -56,7 +133,7 @@ width: 460px;
 
 .body{
     /* background: black; */
-    background: linear-gradient(white,indigo, black) no-repeat;
+    background: linear-gradient(white,rgb(2, 155, 48), black) no-repeat;
     background-attachment: fixed;
 
 }
