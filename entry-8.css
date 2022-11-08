@@ -97,10 +97,10 @@ width: 460px;
 @media(min-width:1024px){
     .pills{
         display: grid;
-        width:690px;
-        grid-template-columns:1fr 1fr ;
-        margin-left:18%;
-        column-gap: 60px;
+        width: 844px;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10%;
+        column-gap: 175px;
     }
 }
 
