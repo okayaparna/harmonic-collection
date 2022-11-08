@@ -28,6 +28,7 @@
 @media(max-width:425px){
     .case-1{
         padding-left: 20%;
+        width: 400px;
     }
 }
 @media(min-width:1024px){
