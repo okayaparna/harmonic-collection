@@ -90,6 +90,13 @@ margin-top:-10%;
       
     }
 }
+@media(min-width:1024px){
+    .main{
+        height: 1156px;
+        width: 1044px;
+      
+    }
+}
 
 .case-1{
     font-family: 'Silkscreen', cursive;
