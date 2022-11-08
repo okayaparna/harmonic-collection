@@ -412,3 +412,19 @@ margin-left: 20%;
     color: white;
     box-shadow: 0 0 45px rgb(255, 0, 0);
 }
+
+.backtoindex {
+    color:rgb(4, 255, 63);
+    font-size:small;
+    font-family: 'Silkscreen', cursive;
+    display:inline-block;
+    text-align: center;
+    margin-left: 50%;
+    margin-top:50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-radius: 7px;
+}
