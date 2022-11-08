@@ -31,6 +31,13 @@
         width: 400px;
     }
 }
+@media(min-width:425px){
+    .case-1{
+        padding-left: 18%;
+        width: 500px;
+    }
+}
+
 @media(min-width:1024px){
     .case-1{
         padding-left: 46%;
