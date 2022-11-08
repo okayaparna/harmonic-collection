@@ -238,8 +238,8 @@ margin-left: 20%;
 @media(min-width:1024px){
     .skin{
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 864px;
-        margin-left: 7%;
+        margin-left: 1%;
+        width: 100%;
     }
 }
 
