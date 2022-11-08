@@ -201,8 +201,8 @@
 
 @media(min-width:1024px){
     .body-text{
-        width: 768px;
-        margin-left:25%;
+        width: 725px;
+        margin-left:6%;
     }
 }
 
@@ -232,6 +232,13 @@ margin-left: 20%;
     .skin{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 656px;
+        margin-left: 7%;
+    }
+}
+@media(min-width:1024px){
+    .skin{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 864px;
         margin-left: 7%;
     }
 }
