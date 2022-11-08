@@ -25,6 +25,16 @@
     border-radius: 50%; */
 }
 
+
+
+
+@media(max-width:375px){
+    .case-1{
+padding-left: 28%;
+width: 460px;
+    }
+}
+
 @media(max-width:425px){
     .case-1{
         padding-left: 20%;
