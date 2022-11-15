@@ -25,6 +25,7 @@
 
     background-size: cover;
     /* background-image: url(header-9.png); */
+    background-image: url(error-gif.gif);
     padding-bottom: 5%;
 margin-left:-10%;
 margin-top:-10%;
@@ -125,9 +126,9 @@ margin-top:-10%;
 
 
 
-@media(max-width:375px){
+@media(max-width:320px){
     .case-1{
-padding-left: 28%;
+padding-left: 42%;
 width: 460px;
     }
 }
