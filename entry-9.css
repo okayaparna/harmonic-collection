@@ -277,3 +277,19 @@ body {
     border-style: solid;
     border-radius: 7px;
 }
+
+.cross-tape{
+    transform: rotate(-35deg) scale(120%); 
+    background-color: lime;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    width: 800px;
+}
+
+.cross-tape-2{
+    transform: rotate(15deg) scale(120%); 
+    background-color: rgb(212, 255, 0);
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    width: 800px;
+}
