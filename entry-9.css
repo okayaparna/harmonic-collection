@@ -297,7 +297,7 @@ body {
 }
 
 .cross-tape{
-    transform: rotate(-35deg) scale(120%); 
+    transform: rotate(-35deg) scale(150%); 
     background-color: lime;
     color: black;
     font-family: 'Bebas Neue', cursive;
@@ -343,8 +343,21 @@ body {
 }
 
 .cross-tape-5{
-    transform: rotate(65deg) scale(120%); 
+    transform: rotate(35deg) scale(120%); 
     background-color: rgb(255, 123, 0);
+    color: black;
+    font-family: 'Bebas Neue', cursive;  
+    max-width: fit-content;
+    padding:2%;
+    padding-left: 2%;
+    padding-right:2%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cross-tape-6{
+    transform: rotate(-25deg) scale(150%); 
+    background-color: rgb(255, 0, 174);
     color: black;
     font-family: 'Bebas Neue', cursive;  
     max-width: fit-content;
